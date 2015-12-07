@@ -4,10 +4,12 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
-		int b[]={5,10,15};
+		int a[]={5,10,15};
+		int b[]={1,2,3};
 		int m=3;
 		for(int i=0;i<m;i++){
-			System.out.println("b["+i+"]"+"="+b[i]);
+			b[i]=a[i];
+			System.out.println("b["+i+"]"+"="+a[i]);
 		}
 
 	}
