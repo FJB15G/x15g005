@@ -6,14 +6,21 @@ public class Main {
 		// TODO 自動生成されたメソッド・スタブ
 		int x[]={1,2,3};
 		int y[]={7,8};
-		int z[]={};
+		int z[]={0,0,0,0,0};
 		int m=3;
 		int n=2;
-		for(int i=0;i<m;i++){
+		int i;
+		System.out.print("z[]={");
+		for( i=0;i<m;i++){
 			z[i]=x[i];
+			System.out.print(z[i]);
 		}
+		for( i=0;i<n;i++){
+			z[i+3]=y[i];
+			System.out.print(z[i+3]);
+		}
+		System.out.println("}");
 		
-		System.out.println(x[]);
 		
 
 	}
