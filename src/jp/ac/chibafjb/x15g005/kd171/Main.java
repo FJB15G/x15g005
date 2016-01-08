@@ -7,13 +7,16 @@ public class Main {
 		
 		int data[]={100,200,300,0};
 		int k=3;
-		int a=0;
+		int a=2;
 		int b=0;
-		for(int i=0;i<=k;i=i+1){
-			System.out.println("data["+i+"]"+"="+data[a]);
-			a+=1;
-			data[a]=data[b];
-			b+=1;
+		for(int i=k;i>0;i-=1){
+			//System.out.println("data["+i+"]"+"="+data[a]);
+			data[i]=data[i-1];
+			
+		}
+		for( int i=0;i<=k;i+=1){
+			System.out.println("data["+i+"]"+"="+data[i]);
+		
 		}
 
 	}
