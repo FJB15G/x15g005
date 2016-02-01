@@ -9,7 +9,7 @@ public class Main {
 		int m=3;
 		for(int i=0;i<m;i++){
 			b[i]=a[i];
-			System.out.println("b["+i+"]"+"="+a[a]);
+			System.out.println("b["+i+"]"+"="+b[i]);
 		}
 
 	}
